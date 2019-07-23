@@ -1,0 +1,33 @@
+$light_blue: #4fc8d9;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: $light_blue;
+}
+.logo {
+  width: 300px;
+  height: auto;
+}
+
+.heroBanner {
+  background: $light_blue;
+}
+
+img.heroImage {
+  width: 1150px;
+  height: 637px;
+}
+
+#card img {
+  width: 171px;
+  height: 160px;
+}
