@@ -1,4 +1,5 @@
 $light_blue: #4fc8d9;
+$light_green: #51bb7b;
 
 *,
 *::before,
@@ -36,4 +37,15 @@ img.heroImage {
   background-image: url(/img/home-resellers-hero.jpg);
   background-repeat: no-repeat;
   height: 300px;
+}
+
+#sslCTA {
+  background: $light_green;
+  height: 340px;
+
+  img {
+    height: 340px;
+    width: 514px;
+    float: left;
+  }
 }
